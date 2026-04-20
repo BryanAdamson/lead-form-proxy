@@ -1,6 +1,6 @@
 # Lead Form Proxy (WordPress plugin)
 
-Renders a fixed-field lead form via the `[lead_form]` shortcode, stores each submission locally in a custom database table, POSTs it as JSON to a configured HTTP endpoint, and retries transient failures via WP-Cron with exponential backoff. Designed to be paired with the [`lead-api`](../lead-api) .NET service, but the outbound contract is plain JSON so any HTTP endpoint will do.
+Renders a fixed-field lead form via the `[lead_form]` shortcode, stores each submission locally in a custom database table, POSTs it as JSON to a configured HTTP endpoint, and retries transient failures via WP-Cron with exponential backoff. Designed to be paired with the [`lead-api`](https://github.com/BryanAdamson/lead-api) .NET service, but the outbound contract is plain JSON so any HTTP endpoint will do.
 
 Key properties:
 
